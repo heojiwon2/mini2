@@ -16,13 +16,13 @@
 페이지는 크게 통계 분석페이지, 고객관리 페이지, 신규고객 페이지로 구성
 
 ### 통계 분석 페이지
-<img src="static/img/EDA.png" height="200" width="1000" /><br>
+<img src="static/img/EDA.png" height="500" width="1000" /><br>
 
 1. 관리자 입장에서 업무에 필요한 지표를 상단의 CARD 형태로
 2. 주요 대이터들에 대한 상관관계를 그래프로
 
 ### 고객 관리 페이지
-<img src="static/img/customer.png" height="200" width="1000" /><br>
+<img src="static/img/customer.png" height="500" width="1000" /><br>
 
 1. 학습시킨 모델을 pickle 파일을 이용해 django 서버에 load
 2. 학습시킨 모델을 model.predict_proba()를 이용해 확률로 변환 후, 퍼센트에 따라 위험도 표시 및 색상

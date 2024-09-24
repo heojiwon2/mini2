@@ -4,7 +4,7 @@
 
 
 # 👯‍♂️👯 멤버 소개 
-| <img src="static/img/sad.png" width="2800" /> | <img src="static/img/dis.png" width="2000" /> | <img src="static/img/happy.png" width="2000" /> | <img src="static/img/envy.png" " width="2000" /> | 
+| <img src="static/img/sad.png" width="2800" /> | <img src="static/img/dis.png" width="2000" /> | <img src="static/img/happy.png" width="2000" /> | <img src="static/img/envy.png" width="2000" /> | 
 |:----------:|:----------:|:----------:|:----------:|
 | 이준경(팀장) | 방효식 | 허지원 | 장수연 |   
 | Django | 데이터분석(EDA)<br>FrontEnd | 데이터분석(EDA)<br>ML Model 구축 | 데이터분석(EDA)<br>FrontEnd| 

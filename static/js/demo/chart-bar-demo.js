@@ -38,7 +38,7 @@ var myBarChart = new Chart(ctx, {
       backgroundColor: "#4e73df",
       hoverBackgroundColor: "#2e59d9",
       borderColor: "#4e73df",
-      data: [1655, 48, 214],
+      data: [1655, 48, 166],
     }],
   },
   options: {
@@ -115,13 +115,13 @@ var ctx = document.getElementById("myBarChart2");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Month-to-month", "Two year", "One year"],
+    labels: ["Hight-Level", "Midium-Level", "Low-Level"],
     datasets: [{
-      label: "Contrract",
+      label: "Monthly-Charge",
       backgroundColor: "#4e73df",
       hoverBackgroundColor: "#2e59d9",
       borderColor: "#4e73df",
-      data: [3875, 1695, 1473],
+      data: [1274, 433, 162],
     }],
   },
   options: {
@@ -151,7 +151,7 @@ var myBarChart = new Chart(ctx, {
       yAxes: [{
         ticks: {
           min: 0,
-          max: 4000,
+          max: 1500,
           maxTicksLimit: 5,
           padding: 10,
           // Include a dollar sign in the ticks
@@ -198,13 +198,13 @@ var ctx = document.getElementById("myBarChart3");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Phone Service O", "Phone Service X"],
+    labels: ["36개월 이상 ", "12개월 이상 ","12개월 미만"],
     datasets: [{
-      label: "PhoneService",
+      label: "Tenure",
       backgroundColor: "#4e73df",
       hoverBackgroundColor: "#2e59d9",
       borderColor: "#4e73df",
-      data: [1699, 170],
+      data: [368, 502, 999],
     }],
   },
   options: {
@@ -234,7 +234,7 @@ var myBarChart = new Chart(ctx, {
       yAxes: [{
         ticks: {
           min: 0,
-          max: 2000,
+          max: 1200,
           maxTicksLimit: 5,
           padding: 10,
           // Include a dollar sign in the ticks

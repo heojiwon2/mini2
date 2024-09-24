@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Sidebar Styles */
+#sidebar {
+    background-color: #343a40;
+    padding-top: 20px;
+    height: 100vh;
+    color: white;
+}
+
+#sidebar .nav-item {
+    margin-bottom: 15px;
+}
+
+#sidebar .nav-link {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #495057;
+    color: white;
+}
+
+#sidebar .nav-link.active {
+    background-color: #28a745;
+    color: white;
+}
+
+#sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+h1, h3 {
+    color: #4e73df;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card .text-primary {
+    color: #4e73df !important;
+}
+
+.card .text-success {
+    color: #1cc88a !important;
+}
+
+.card .text-warning {
+    color: #f6c23e !important;
+}
+
+.card .text-danger {
+    color: #e74a3b !important;
+}
+
+/* Chart Styles */
+.chart-area, .chart-pie, .chart-bar {
+    position: relative;
+    height: 350px;
+}
+
+/* Progress Bar Styles */
+.progress {
+    height: 15px;
+}
+
+.progress-bar {
+    border-radius: 5px;
+}
+
+.progress-bar.bg-danger {
+    background-color: #e74a3b !important;
+}
+
+.progress-bar.bg-warning {
+    background-color: #f6c23e !important;
+}
+
+.progress-bar.bg-info {
+    background-color: #36b9cc !important;
+}
+
+/* Color System */
+.bg-primary {
+    background-color: #4e73df !important;
+}
+
+.bg-success {
+    background-color: #1cc88a !important;
+}
+
+.bg-info {
+    background-color: #36b9cc !important;
+}
+
+.bg-warning {
+    background-color: #f6c23e !important;
+}
+
+.bg-danger {
+    background-color: #e74a3b !important;
+}
+
+.bg-secondary {
+    background-color: #858796 !important;
+}
+
+/* Card Text Colors */
+.card-body .text-white-50 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card-body .text-black-50 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Chart Legends */
+.text-primary {
+    color: #4e73df !important;
+}
+
+.text-success {
+    color: #1cc88a !important;
+}
+
+.text-warning {
+    color: #f6c23e !important;
+}
+
+.text-danger {
+    color: #e74a3b !important;
+}
+
+/* Chart.js overrides */
+canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+}

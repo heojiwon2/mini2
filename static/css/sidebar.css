@@ -1,0 +1,36 @@
+/* 전체 사이드바 스타일 */
+#sidebar {
+    height: 100vh;  /* 화면 전체 높이 */
+    background-color: #ccf2ff; /* 스카이블루 배경색 */
+    padding-top: 20px;
+    padding-left: 10px;
+    border-right: 2px solid #f1f1f1;  /* 오른쪽 테두리 */
+}
+
+#sidebar .nav-link {
+    color: #333;  /* 링크 기본 색상 */
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#sidebar .nav-link:hover {
+    background-color: #ffcccc;  /* 빨강 하이라이트 */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* 스크롤을 위한 처리 */
+#sidebar .position-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 20px);  /* 상단 패딩 제외한 높이 */
+    overflow-y: auto;  /* 스크롤 가능 */
+    padding-bottom: 20px;
+}
+
+

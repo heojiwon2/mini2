@@ -1,0 +1,20 @@
+<!-- Custom CSS -->
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
+
+<!-- templates/includes/sidebar.html -->
+<nav id="sidebar" class="col-12 col-lg-2 d-block d-lg-block">
+    <div class="position-sticky">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="{% url 'EDA' %}">EDA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'customer' %}">customer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'new_churn' %}">predict new</a>
+            </li>
+        </ul>
+    </div>
+</nav>

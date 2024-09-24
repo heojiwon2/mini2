@@ -1,0 +1,67 @@
+/* 전체 페이지 스타일 */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ff6b6b; /* 오렌지 (팀원이 선호하는 색상) */
+}
+
+label {
+    font-weight: bold;
+    color: #333333;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    border-color: #6bc6ff; /* 스카이블루 테두리 */
+}
+
+.btn-primary {
+    background-color: #ff6b6b; /* 오렌지 버튼 */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff4c4c; /* 조금 더 짙은 오렌지 */
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    border: 2px solid #6bc6ff; /* 스카이블루 테두리 */
+}
+
+.result-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 위험도에 따른 색상 구분 */
+.result-high {
+    color: #ff4c4c; /* 빨강 (고위험) */
+    background-color: #ffe5e5; /* 고위험 배경 */
+}
+
+.result-medium {
+    color: #ffa500; /* 오렌지 (중위험) */
+    background-color: #fff5e6; /* 중위험 배경 */
+}
+
+.result-low {
+    color: #28a745; /* 초록 (저위험) */
+    background-color: #e6ffe6; /* 저위험 배경 */
+}

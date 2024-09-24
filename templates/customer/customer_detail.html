@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객 상세 정보</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/customer_detail.css' %}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 왼쪽 위험도 정보 -->
+            <div class="col-md-4 text-center">
+                <!-- 위험도에 따라 이미지 및 텍스트 표시 -->
+                {% if risk_category == "고위험" %}
+                    <img src="{% static 'img/sad.png' %}" alt="High Risk" class="img-fluid">
+                    <h3 class="mt-3 text-danger">고위험</h3>
+                {% elif risk_category == "중위험" %}
+                    <img src="{% static 'img/dis.png' %}" alt="Medium Risk" class="img-fluid">
+                    <h3 class="mt-3 text-warning">중위험</h3>
+                {% else %}
+                    <img src="{% static 'img/happy.png' %}" alt="Low Risk" class="img-fluid">
+                    <h3 class="mt-3 text-success">저위험</h3>
+                {% endif %}
+            </div>
+
+            <!-- 오른쪽 고객 정보 테이블 -->
+            <div class="col-md-8">
+                <h2>고객 상세 정보</h2>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr><th>고객 ID</th><td>{{ customer.customerID }}</td></tr>
+                        <tr><th>성별</th><td>{{ customer.gender }}</td></tr>
+                        <tr><th>월 요금</th><td>{{ customer.MonthlyCharges }} $</td></tr>
+                        <tr><th>총 요금</th><td>{{ customer.TotalCharges }} $</td></tr>
+                        <tr><th>가입 기간</th><td>{{ customer.tenure }}개월</td></tr>
+                        
+                        <tr><th>시니어 고객 여부</th><td>{{ customer.SeniorCitizen }}</td></tr>
+                        <tr><th>파트너 여부</th><td>{{ customer.Partner }}</td></tr>
+                        <tr><th>부양가족 여부</th><td>{{ customer.Dependents }}</td></tr>
+                        
+                        <tr><th>전화 서비스</th><td>{{ customer.PhoneService }}</td></tr>
+                        <tr><th>멀티라인</th><td>{{ customer.MultipleLines }}</td></tr>
+                        <tr><th>인터넷 서비스</th><td>{{ customer.InternetService }}</td></tr>
+                        <tr><th>온라인 보안</th><td>{{ customer.OnlineSecurity }}</td></tr>
+                        <tr><th>온라인 백업</th><td>{{ customer.OnlineBackup }}</td></tr>
+                        <tr><th>기기 보호</th><td>{{ customer.DeviceProtection }}</td></tr>
+                        <tr><th>기술 지원</th><td>{{ customer.TechSupport }}</td></tr>
+                        <tr><th>스트리밍 TV</th><td>{{ customer.StreamingTV }}</td></tr>
+                        <tr><th>스트리밍 영화</th><td>{{ customer.StreamingMovies }}</td></tr>
+                        <tr><th>계약</th><td>{{ customer.Contract }}</td></tr>
+                        <tr><th>무종이 청구서</th><td>{{ customer.PaperlessBilling }}</td></tr>
+                        <tr><th>지불 방식</th><td>{{ customer.PaymentMethod }}</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

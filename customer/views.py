@@ -144,3 +144,16 @@ def predict_churn(request):
       
 
     return render(request, 'customer/predict_churn.html', {'result':result })
+
+def customer_detail(request, customer_id):
+    # 고객 정보 가져오기 (CSV 파일에서 고객 정보 로드)
+    origin_df = pd.read_csv("./static/database/origin.csv")
+    customer = origin_df[origin_df['customerID'] == customer_id].iloc[0]
+    
+    # GET 파라미터로 RiskCategory를 받아오기
+    risk_category = request.GET.get('risk_category', '정보 없음')
+
+    return render(request, 'customer/customer_detail.html', {
+        'customer': customer,
+        'risk_category': risk_category
+    })

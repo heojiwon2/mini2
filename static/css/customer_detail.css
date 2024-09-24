@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+/* 위험도에 따른 색상 */
+.text-고위험 {
+    color: #e74a3b;
+}
+
+.text-중위험 {
+    color: #f6c23e;
+}
+
+.text-저위험 {
+    color: #1cc88a;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* 테이블 스타일 */
+table {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f9fc;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #fff;
+}

@@ -59,14 +59,22 @@
                         <tbody>
                             {% for customer in page_obj %}
                             <tr class="
-                                {% if customer.RiskCategory == '고위험' %}table-danger{% elif customer.RiskCategory == '중위험' %}table-warning{% else %}table-success{% endif %}
-                            ">
-                                <td><input type="checkbox" name="selected_customer" value="{{ customer.customerID }}"></td>
-                                <td>{{ customer.customerID }}</td>                                <td>{{ customer.gender }}</td>
-                                <td>{{ customer.MonthlyCharges }}</td>
-                                <td>{{ customer.tenure }}</td>
-                                <td>{{ customer.RiskCategory }}</td>
-                            </tr>
+    {% if customer.RiskCategory == '고위험' %}table-danger
+    {% elif customer.RiskCategory == '중위험' %}table-warning
+    {% else %}table-success
+    {% endif %}
+">
+    <td><input type="checkbox" name="selected_customer" value="{{ customer.customerID }}"></td>
+    <td>
+        <a href="{% url 'customer_detail' customer.customerID %}?risk_category={{ customer.RiskCategory }}">
+            {{ customer.customerID }}
+        </a>
+    </td>
+    <td>{{ customer.gender }}</td>
+    <td>{{ customer.MonthlyCharges }}</td>
+    <td>{{ customer.tenure }}</td>
+    <td>{{ customer.RiskCategory }}</td>
+</tr>
                             {% endfor %}
                         </tbody>
                     </table>

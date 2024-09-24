@@ -35,6 +35,19 @@
 ## 데이터 분석
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)
 
+
+### 앙상블 모델 
+
+### 5개 요인 - 각 모델의 피쳐 중요도 중 상위 6개 중 겹치는 요인이 많은 변수로 선택 
+- contract 기간 달마다, 1년, 2년 (범주형)
+- monthly charges low medi high (범주형)
+- tenure 기간 short medi long (범주형)
+- fiber optic 사용자
+- total charges 기준 : 1500 이하 (범주형)
+
+### 5개 요인 검증 (로지스틱 회귀 선택)
+
+
 ## 👩🏻‍💻 개발 기간 및 기술 스택
 
 ### 2024.09.23 ~ 2023.09.24

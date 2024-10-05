@@ -126,7 +126,7 @@ H1: monthly_charges_category_High 및/또는 monthly_charges_category_Medium은 
 
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/user-attachments/assets/af4a7791-a23e-4f91-8738-e695b12ed0cb" height="200" width="600" style="margin-right: 10px;" />
-    <img src="https://github.com/user-attachments/assets/92df5a64-bd86-42f0-81da-447c34f3be19)" height="200" width="300" />
+    <img src="https://github.com/user-attachments/assets/92df5a64-bd86-42f0-81da-447c34f3be19" height="200" width="300" />
 </div>
 
 -4. tenure_charges _ short, medium, long
@@ -137,13 +137,21 @@ H1: 고객의 tenure (단기, 중기, 장기)는 이탈 여부에 영향을 미�
 
 - 해석: 장기 계약을 가진 고객의 이탈 확률이 단기 계약을 가진 고객에 비해 약 0.15배 낮습니다. 즉, 장기 계약 고객은 단기 계약 고객보다 이탈할 가능성이 약 85.31% 낮습니다.
 
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/8280783f-5f6c-4763-9371-c3ffbe85fa68" height="200" width="600" style="margin-right: 10px;" />
+    <img src="https://github.com/user-attachments/assets/58fd9e17-e8a5-4e9a-8e7f-6c4208d5b597" height="200" width="300" />
+</div>
 
 -5. total_charges_binary_1500 
 - 가설
  H0: total_charges_binary_1500 변수는 고객의 이탈에 영향을 미치지 않는다.
  H1: total_charges_binary_1500 변수는 고객의 이탈에 영향을 미친다.
-- 해석 즉, total_charges_binary_1500이 1일 때 이탈 확률이 0일 때에 비해 약 2.25배 높아진다고 해석할 수 있습니다, 약 77% 낮습니다.
+- 해석 즉, total_charges_binary_1500이 1일 때 이탈 확률이 0일 때에 비해 약 2.25배 높아진다고 해석할 수 있습니다, 약 124% 높습니다.
 
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/c5eb655b-feff-4736-b8d6-540156065dfa" height="200" width="600" style="margin-right: 10px;" />
+    <img src="https://github.com/user-attachments/assets/1c13509d-ebe3-4dc2-9abd-ad30f3c6933c" height="200" width="300" />
+</div>
 
 
 ## 👩🏻‍💻 개발 기간 및 기술 스택

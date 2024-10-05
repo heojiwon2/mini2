@@ -124,6 +124,11 @@ H1: monthly_charges_category_High 및/또는 monthly_charges_category_Medium은 
 고객이 높은 요금을 지불할 때 이탈 확률은 약 5.06배 높아지고, 중간 요금의 경우에도 이탈 확률이 약 2.92배 높아집니다.
 저요금 범주는 기준(reference)으로 설정되어 있으며, 이 두 범주와 비교할 때 유의미한 영향을 미친다고 볼 수 있습니다.
 
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/af4a7791-a23e-4f91-8738-e695b12ed0cb" height="200" width="600" style="margin-right: 10px;" />
+    <img src="https://github.com/user-attachments/assets/92df5a64-bd86-42f0-81da-447c34f3be19)" height="200" width="300" />
+</div>
+
 -4. tenure_charges _ short, medium, long
 H0: 고객의 tenure (단기, 중기, 장기)와 이탈 여부는 고객의 이탈에 영향을 미치지 않는다.
 즉, tenure 범주 간 고객의 이탈 확률에 차이가 없다.

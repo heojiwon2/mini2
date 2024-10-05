@@ -18,14 +18,14 @@
 ### 통계 분석 페이지
 <img src="static/img/EDA.png" height="500" width="1000" /><br>
 
-1. 관리자 입장에서 업무에 필요한 지표를 상단의 CARD 형태로
-2. 주요 대이터들에 대한 상관관계를 그래프로
+1. 관리자 입장에서 업무에 필요한 지표를 상단의 CARD 형태로표현
+2. 머신러닝 중요 피쳐 5개를 선정하여 그래프 형태로 표현
 
 ### 고객 관리 페이지
 <img src="static/img/customer.png" height="500" width="1000" /><br>
 
 1. 학습시킨 모델을 pickle 파일을 이용해 django 서버에 load
-2. 학습시킨 모델을 model.predict_proba()를 이용해 확률로 변환 후, 퍼센트에 따라 위험도 표시 및 색상
+2. 학습시킨 모델을 model.predict_proba()를 이용해 확률로 변환 후, 퍼센트에 따라 위험도 표시 및 색상 (기준 % : 0.4 / 0.7 )
 3. 고객 ID, 성별, 위험도에 따라 결과 필터링 기능 
 
 #### 고객 디테일 페이지 
@@ -37,11 +37,28 @@
 
 1. train dataset data 확인
 <img src="https://github.com/user-attachments/assets/68958b5a-6bc6-43af-8789-db76cca7379a" height="600" width="600" /><br>
-
+2. 원핫인코딩을 통한 독립변수와 종속변수 간 상관관계 확인
+<img src="https://github.com/user-attachments/assets/e7ac0841-79ae-4957-adea-ce82359e90f7" height="400" width="600" /><br>
+3. 독립변수간의 다중공선성 확인
+<img src="https://github.com/user-attachments/assets/48b54fb9-da2b-4833-8607-1b343f633018" height="400" width="600" /><br>
 
 ### 앙상블 모델 (로지스틱, 서포트벡터머신, 그라디언트클래스파이어)
+1. 앙상블 모델에 들어갈 모델 선정 : (auto ml 선택 기준 : AUC)
+  <img src="https://github.com/user-attachments/assets/f97825c0-6a23-4a7e-a600-ce40404770df" height="400" width="600" /><br>
+3. auto ml 상위 모델 confusion matrix , roc curv 확인
+  <img src="https://github.com/user-attachments/assets/56a7e9e6-dfc7-47d1-998b-c86db87eed89" height="400" width="600" /><br>
+ <img src="https://github.com/user-attachments/assets/dca493d8-da1f-4d81-9328-0f482c2bcf8b" height="400" width="600" /><br>
+5. 앙상블 모델 train set, test set -> auc 확인
+  <img src="https://github.com/user-attachments/assets/553020f3-abb4-41a8-9db2-3f1b3fae9f62" height="400" width="600" /><br>
+7. cross validation 확인 -> 약 85% 의 auc로 이탈을 분류할 수 있음
+ <img src="https://github.com/user-attachments/assets/98ea20bb-bbf1-4628-90eb-872a5854412c" height="400" width="600" /><br>
+   
+   
+
 
 ### 5개 중요 요인 선택 - 각 모델의 피쳐 중요도 중 상위 6개 중 겹치는 요인이 많은 변수로 선택 
+ex. 로지스틱 회귀 - beta의 절댓값이 큰 수로 
+ <img src="https://github.com/user-attachments/assets/c925f083-851a-452b-9cde-cfeff8c2854d" height="400" width="600" /><br>
 - contract 기간 달마다, 1년, 2년 (범주형)
 - monthly charges low medi high (범주형)
 - tenure 기간 short medi long (범주형)
@@ -49,7 +66,7 @@
 - total charges 기준 : 1500 이하 (범주형)
 
 
-### 5개 요인 검증 (로지스틱 회귀 선택)
+### 5개 요인 검증 (로지스틱 회귀 결과 5요인 모두 귀무가설을 기각시켜 영향을 미친다고 말할 수 있다.)
 -1. contract 기간!
 <img src="https://github.com/user-attachments/assets/2363aaa0-f803-45c6-8deb-a95f27fc504d" height="200" width="1000" /><br>
 <img src="https://github.com/user-attachments/assets/a5056207-b634-4117-a715-21b67125e3e7" height="200" width="1000" /><br>

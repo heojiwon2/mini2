@@ -83,7 +83,7 @@ ex. 로지스틱 회귀 - beta의 절댓값이 큰 수로
 -1. contract 기간!
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/user-attachments/assets/2363aaa0-f803-45c6-8deb-a95f27fc504d" height="200" width="600" style="margin-right: 10px;" />
-    <img src="https://github.com/user-attachments/assets/3d163855-5ab1-4f48-a7f8-4139a545a580" height="200" width="500" />
+    <img src="https://github.com/user-attachments/assets/3d163855-5ab1-4f48-a7f8-4139a545a580" height="200" width="300" />
 </div>
 
 - 가설 설정

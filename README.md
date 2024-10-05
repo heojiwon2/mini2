@@ -33,9 +33,8 @@
 ### 신규 고객 페이지
 
 ## 데이터 분석
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코드
-!
-<img src="https://github.com/user-attachments/assets/68958b5a-6bc6-43af-8789-db76cca7379a" height="1000" width="600" /><br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코인
+<img src="https://github.com/user-attachments/assets/68958b5a-6bc6-43af-8789-db76cca7379a" height="600" width="600" /><br>
 
 
 ### 앙상블 모델 (로지스틱, 서포트벡터머신, 그라디언트클래스파이어)

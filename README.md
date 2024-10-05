@@ -37,9 +37,13 @@
 
 1. train dataset data 확인
 <img src="https://github.com/user-attachments/assets/68958b5a-6bc6-43af-8789-db76cca7379a" height="600" width="600" /><br>
+
 2. 원핫인코딩을 통한 독립변수와 종속변수 간 상관관계 확인
+
 <img src="https://github.com/user-attachments/assets/e7ac0841-79ae-4957-adea-ce82359e90f7" height="400" width="600" /><br>
-3. 독립변수간의 다중공선성 확인
+
+4. 독립변수간의 다중공선성 확인
+
 <img src="https://github.com/user-attachments/assets/48b54fb9-da2b-4833-8607-1b343f633018" height="400" width="600" /><br>
 
 ### 앙상블 모델 (로지스틱, 서포트벡터머신, 그라디언트클래스파이어)

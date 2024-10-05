@@ -51,7 +51,7 @@
 1. 앙상블 모델에 들어갈 모델 선정 : (auto ml 선택 기준 : AUC)
   <img src="https://github.com/user-attachments/assets/f97825c0-6a23-4a7e-a600-ce40404770df" height="400" width="600" /><br>
   
-2. auto ml 상위 모델 confusion matrix , roc curv 확인
+2. auto ml 상위 모델 confusion matrix , roc curves 확인
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/user-attachments/assets/56a7e9e6-dfc7-47d1-998b-c86db87eed89" height="400" width="400" style="margin-right: 10px;" />
     <img src="https://github.com/user-attachments/assets/dca493d8-da1f-4d81-9328-0f482c2bcf8b" height="400" width="400" />

@@ -30,10 +30,12 @@
 
 #### 고객 디테일 페이지 
 
-### 신규 고객 페이지
+#### 신규 고객 페이지
 
 ## 데이터 분석
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코인
+
+1. train dataset data 확인
 <img src="https://github.com/user-attachments/assets/68958b5a-6bc6-43af-8789-db76cca7379a" height="600" width="600" /><br>
 
 

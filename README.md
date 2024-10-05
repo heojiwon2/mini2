@@ -70,7 +70,7 @@
 
 ### 5개 중요 요인 선택 - 각 모델의 피쳐 중요도 중 상위 6개 중 겹치는 요인이 많은 변수로 선택 
 ex. 로지스틱 회귀 - beta의 절댓값이 큰 수로 
- <img src="https://github.com/user-attachments/assets/c925f083-851a-452b-9cde-cfeff8c2854d" height="400" width="600" /><br>
+<img src="https://github.com/user-attachments/assets/c925f083-851a-452b-9cde-cfeff8c2854d" height="400" width="600" /><br>
 - contract 기간 달마다, 1년, 2년 (범주형)
 - monthly charges low medi high (범주형)
 - tenure 기간 short medi long (범주형)

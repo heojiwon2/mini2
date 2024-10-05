@@ -59,7 +59,7 @@
 
 4. 앙상블 모델 train set, test set -> auc 확인
 
-<img src="https://github.com/user-attachments/assets/553020f3-abb4-41a8-9db2-3f1b3fae9f62" height="200" width="600" /><br>
+<img src="https://github.com/user-attachments/assets/553020f3-abb4-41a8-9db2-3f1b3fae9f62" height="300" width="600" /><br>
 
 5. cross validation 확인 -> 약 85% 의 auc로 이탈을 분류할 수 있음
  

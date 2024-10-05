@@ -47,7 +47,7 @@
 
 <img src="https://github.com/user-attachments/assets/48b54fb9-da2b-4833-8607-1b343f633018" height="400" width="600" /><br>
 
-### 앙상블 모델 (로지스틱, 서포트벡터머신, 그라디언트클래스파이어)
+### 앙상블 모델 (로지스틱 회귀: Logistic Regression, 서포트 벡터 머신: Support Vector Machine (SVM),그래디언트 부스팅 클래스파이어: Gradient Boosting Classifier)
 1. 앙상블 모델에 들어갈 모델 선정 : (auto ml 선택 기준 : AUC)
   <img src="https://github.com/user-attachments/assets/f97825c0-6a23-4a7e-a600-ce40404770df" height="400" width="600" /><br>
   

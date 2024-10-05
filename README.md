@@ -63,7 +63,7 @@
 
 5. cross validation 확인 -> 약 85% 의 auc로 이탈을 분류할 수 있음
  
-<img src="https://github.com/user-attachments/assets/98ea20bb-bbf1-4628-90eb-872a5854412c" height="200" width="600" /><br>
+<img src="https://github.com/user-attachments/assets/c925f083-851a-452b-9cde-cfeff8c2854d" height="200" width="600" /><br>
    
    
 
@@ -71,7 +71,7 @@
 ### 5개 중요 요인 선택 - 각 모델의 피쳐 중요도 중 상위 6개 중 겹치는 요인이 많은 변수로 선택 
 ex. 로지스틱 회귀 - beta의 절댓값이 큰 수로 
 
-<img src="https://github.com/user-attachments/assets/c925f083-851a-452b-9cde-cfeff8c2854d" height="300" width="600" /><br>
+<img src="https://github.com/user-attachments/assets/8f97ed9e-5068-40c4-abf7-6e0dd7220473" height="300" width="600" /><br>
 - contract 기간 달마다, 1년, 2년 (범주형)
 - monthly charges low medi high (범주형)
 - tenure 기간 short medi long (범주형)

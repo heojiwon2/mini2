@@ -101,7 +101,14 @@ Month-to-month 계약의 이탈 확률은 One year 계약보다 약 77% 낮아�
   
 - 해석 : 광섬유 서비스를 사용하는 고객의 이탈 확률이 아닌 고객에 비해 약 4.25배 높으며, 이는 약 325% 증가하는 것이라고 할 수 있습니다.
 
-     
+
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/1860d770-a9bf-4257-9a4f-63a0beb49db2" height="200" width="600" style="margin-right: 10px;" />
+    <img src="https://github.com/user-attachments/assets/d54ddc02-3d4c-48c6-a34b-439cd0a4e3f1" height="200" width="600" />
+</div>
+
+
+
 -3. monthly_charges_low,me,high
 
 

@@ -34,6 +34,8 @@
 
 ## 데이터 분석
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코드
+!
+<img src="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN03-3rd-6Team/blob/main/anal.ipynb" height="200" width="1000" /><br>
 
 
 ### 앙상블 모델 (로지스틱, 서포트벡터머신, 그라디언트클래스파이어)

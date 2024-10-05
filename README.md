@@ -83,7 +83,7 @@ ex. 로지스틱 회귀 - beta의 절댓값이 큰 수로
 -1. contract 기간!
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/user-attachments/assets/2363aaa0-f803-45c6-8deb-a95f27fc504d" height="200" width="600" style="margin-right: 10px;" />
-    <img src="https://github.com/user-attachments/assets/a5056207-b634-4117-a715-21b67125e3e7" height="200" width="600" />
+    <img src="https://github.com/user-attachments/assets/a5056207-b634-4117-a715-21b67125e3e7" height="200" width="300" />
 </div>
 
 - 가설 설정
@@ -104,7 +104,7 @@ Month-to-month 계약의 이탈 확률은 One year 계약보다 약 77% 낮아�
 
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/user-attachments/assets/1860d770-a9bf-4257-9a4f-63a0beb49db2" height="200" width="600" style="margin-right: 10px;" />
-    <img src="https://github.com/user-attachments/assets/d54ddc02-3d4c-48c6-a34b-439cd0a4e3f1" height="200" width="600" />
+    <img src="https://github.com/user-attachments/assets/d54ddc02-3d4c-48c6-a34b-439cd0a4e3f1" height="200" width="300" />
 </div>
 
 

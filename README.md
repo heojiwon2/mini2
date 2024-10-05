@@ -63,7 +63,7 @@
 
 5. cross validation 확인 -> 약 85% 의 auc로 이탈을 분류할 수 있음
  
- <img src="https://github.com/user-attachments/assets/98ea20bb-bbf1-4628-90eb-872a5854412c" height="400" width="600" /><br>
+ <img src="https://github.com/user-attachments/assets/98ea20bb-bbf1-4628-90eb-872a5854412c" height="200" width="200" /><br>
    
    
 

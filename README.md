@@ -81,8 +81,8 @@ ex. 로지스틱 회귀 - beta의 절댓값이 큰 수로
 
 ### 5개 요인 검증 (로지스틱 회귀 결과 5요인 모두 귀무가설을 기각시켜 영향을 미친다고 말할 수 있다.)
 -1. contract 기간!
-<img src="https://github.com/user-attachments/assets/2363aaa0-f803-45c6-8deb-a95f27fc504d" height="200" width="1000" /><br>
-<img src="https://github.com/user-attachments/assets/a5056207-b634-4117-a715-21b67125e3e7" height="200" width="1000" /><br>
+<img src="https://github.com/user-attachments/assets/2363aaa0-f803-45c6-8deb-a95f27fc504d" height="200" width="600" /><br>
+<img src="https://github.com/user-attachments/assets/a5056207-b634-4117-a715-21b67125e3e7" height="200" width="600" /><br>
 
 - 가설 설정
 귀무가설 (H0): 세 계약 유형(One year, Two year, Month-to-month) 간의 이탈 확률에는 차이가 없다.

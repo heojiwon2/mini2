@@ -33,7 +33,7 @@
 #### 신규 고객 페이지
 
 ## 데이터 분석
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코인
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코드
 
 1. train dataset data 확인
    

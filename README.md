@@ -16,24 +16,27 @@
 페이지는 크게 통계 분석페이지, 고객관리 페이지, 신규고객 페이지로 구성
 
 ### 통계 분석 페이지
-<img src="static/img/EDA.png" height="400" width="1000" /><br>
+<img src="https://github.com/user-attachments/assets/e441eb81-5f28-4fe8-8e5b-04a06dee08ca" height="400" width="1000" /><br>
+<img src="https://github.com/user-attachments/assets/f0772052-2a60-4883-b553-e2f978c97043" height="400" width="1000" /><br>
 
 1. 관리자 입장에서 업무에 필요한 지표를 상단의 CARD 형태로표현
 2. 머신러닝 중요 피쳐 5개를 선정하여 그래프 형태로 표현
 
 ### 고객 관리 페이지
-<img src="static/img/customer.png" height="400" width="1000" /><br>
+<img src="https://github.com/user-attachments/assets/525ceca6-2eb8-4d2b-9a6a-acdfd2fc7f9b" height="400" width="1000" /><br>
 
 1. 학습시킨 모델을 pickle 파일을 이용해 django 서버에 load
 2. 학습시킨 모델을 model.predict_proba()를 이용해 확률로 변환 후, 퍼센트에 따라 위험도 표시 및 색상 (기준 % : 0.4 / 0.7 )
 3. 고객 ID, 성별, 위험도에 따라 결과 필터링 기능 
 
 #### 고객 디테일 페이지 
+<img src="https://github.com/user-attachments/assets/ca99e7af-3b19-47fb-8e9e-d0522ca45445" height="400" width="1000" /><br>
 
-#### 신규 고객 페이지
+#### 고객 예측 페이지
+<img src="https://github.com/user-attachments/assets/400fe4ab-ddba-4a33-984e-23728fefb91c" height="400" width="1000" /><br>
 
 ## 데이터 분석
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코드
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo" alt="Jupyter Logo" width="10"/>  [anal.ipynb](anal.ipynb)  <- 머신러닝 코드
 
 1. train dataset data 확인
    

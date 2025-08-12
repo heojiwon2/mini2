@@ -5,7 +5,7 @@
 | <img src="static/img/sad.png" height="200" width="200" /> | <img src="static/img/dis.png" height="200" width="200"  /> | <img src="static/img/happy.png" height="200" width="200" /> | <img src="static/img/envy.png" height="200" width="200"  /> | 
 |:----------:|:----------:|:----------:|:----------:|
 | 이준경(팀장) | 방효식 | 허지원 | 장수연 |   
-| backend | 데이터분석<br>| 데이터분석(ANALYSIS)<br>ML Model 구축,FrontEnd | <br>frontend| 
+| backend | 데이터분석<br>| 데이터분석(ANALYSIS)<br>ML Model 구축,frontend | frontend| 
 
 
 
